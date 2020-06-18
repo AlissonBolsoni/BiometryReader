@@ -1,0 +1,4 @@
+include ':bioReader'
+include ':ftrScanApiAndroidHelperUsbHost'
+include ':ftrWsqAndroidHelper'
+include ':openCVLibrary331'

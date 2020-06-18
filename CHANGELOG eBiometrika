@@ -1,0 +1,128 @@
+================================================================
+VERSOES PRODUCOES LANCAMENTOS:
+
+1.1.12 - Lançamento 29/01/2018
+1.1.10 - Lançamento 10/12/2017**
+1.1.8  - Lançamento 10/12/2017**
+1.1.6  - Lançamento 26/10/2017
+1.1.4  - Lançamento 07/08/2017
+1.1.0  - Lançamento 06/03/2017 às 19:37
+1.0.6  - Lançamento 31/01/2017
+1.0.4  - Lançamento 26/10/2016
+1.0.2  - Lançamento 25/08/2016
+
+================================================================
+ALTERAÇÕES A SEREM FEITAS: 
+
+================================================================
+ALTERAÇÕES DESABILITADAS: 
+
+
+=================================================================
+Desenvolvimento: 19/12/2018 à 19/12/2018
+Testes: 2.0.0.1
+Produção: 2.0.1
+
+19/12/2018 - Ajuste nas bibliotecas nativas, retirado  a arquitetura armebi pois não é mais compativel com o NDK do android! (testar em todos dispositivos que utilizamos)
+19/12/2018 - O programa agora retorna a qualidade de biometria. Alteração necessaria na lib-android 2.4.1
+19/12/2018 - Testar compatibilidade de softwares que utilizam o eBiometrika tanto para versao atualizada ou desatualizada.
+
+=================================================================
+Desenvolvimento: 25/04/2018 à 07/05/2018
+Testes: 2.0.0.0
+Produção: 2.0.0
+
+25/04/2018 - Alterado o lado da imagem com a biometria.
+26/04/2018 - Tratamento de erro ao carregar OpenCV: (Não foi possível abrir a aplicação eBIOMETRIKA. Por favor, entre em contato com a nossa Central de Atendimento.)
+02/05/2018 - Tratamento de erro para foto com tamanho <=0
+02/05/2018 - Tratamento de erro para biometria com tamanho <=0
+07/05/2018 - Todo o programa foi refeito, testar como um todo. Visa solucionar todos problemas de scanner. Nova tela de testes, com mais parametros para testa-lo.
+
+=================================================================
+Desenvolvimento: 06/03/2018 à 07/03/2018
+Testes: 1.1.13.1
+Produção: 1.1.14
+
+06/03/2018 - Alterado layout do sistema.
+07/03/2018 - Alteração para verificar face apos a captura da imagem, nao contendo a mesma informa para tentar novamente, o mesmo foi feito para dedo falso.
+07/03/2018 - Converção para Kotlin.
+
+=================================================================
+Desenvolvimento: 28/12/2018 à 30/01/2018
+Testes: 1.1.11.1
+Produção: 1.1.12
+
+17/01/2018 - GBZ - Ajustado cache de images, apagando lixo do sistema. (testar envio de imagens nos programas epratika/eteorika no modo offline)
+18/01/2018 - GBZ - Alterado build type para gerar o apk, retirado ~2mb do aplicativo (testar atualização automatica)
+19/01/2018 - GBZ - Ajustes para nova tab A6 , melhorado lentidao, testar em outros equipamentos;
+
+=================================================================
+Desenvolvimento: 28/12/2017 à 28/12/2017
+Testes: 1.1.9.1
+Produção: 1.1.10
+
+28/12/2017 - GBZ - Inclusao do OpenCV no programa. Agora é possível detectar a face da pessoa para habilitar ou nao a captura da biometria. Essa funcionalidade foi parametrizada.
+
+=================================================================
+Desenvolvimento: 07/11/2017 à 08/12/2017
+Testes: 1.1.7.1
+Produção: 1.1.8
+
+18/11/2017 - GBZ - Atualização de versao do android compileSdkVersion=27
+18/11/2017 - GBZ - Camera facing parametrizado.
+08/12/2017 - GBZ - Refatorado padrao de nomes dos parametros
+08/12/2017 - GBZ - Qualidade da foto separada da qualidade de biometria. parametrizado
+
+================================================================================================
+Desenvolvimento: 16/10/2017 à 18/10/2017
+Testes: 1.1.5.1
+Produção: 1.1.6
+
+18/10/2017 - GBZ - Alteração para tablet A6: Correção para congelar a camera quando tira foto, ajuste no retorno dos dados tratamento diferente para nao travar a interface.
+
+================================================================================================
+Versão de produção 1.1.4 (xx/08/2017) 
+
+02/08/2017 - GBZ - Mudanca para manter a posicao da foto apos captura
+07/08/2017 - GBZ - Correção para manter orientação de tela no momento da captura.
+07/08/2017 - GBZ - Novo parametro responsavel por fixar a orientacao da tela ao capturar.
+
+================================================================================================
+Versão 1.0.7 (15/02/2017) - Versão de produção 1.1.0 (06/03/2017) 
+
+15/02/2017 - GBZ - Refatoracao da classe FPScan (Melhoria na velocidade de leitura, tratamento de dedo falso e cores dos LEDs de status)
+15/02/2017 - FAB - Classe de testes permite testar dedo vivo quando marcar o checkbox
+
+================================================================================================
+Versão 1.0.5 (30/01/2017) - Versão de produção 1.0.6 (31/01/2017)
+
+30/01/2017 - Manter o texto de cabecalho mesmo apos girar a tela
+30/01/2017 - Travar a orientacao dos dois lados de paisagem
+30/01/2017 - Mudanca para manter a posicao da foto apos captura
+
+================================================================================================
+Versão 1.0.4 (24/08/2016)
+
+- Permitir multiplas orientações de tela (26/10/2016)
+
+================================================================================================
+Versão 1.0.1.3 (24/08/2016) - Produção 1.0.2
+
+- Criado broadcast para chamar o servico de atualizacao ao iniciar o aparelho (24/08/2016)
+
+Data do lançamento: 25/08/2016
+================================================================================================
+Versão 1.0.1.2 (23/08/2016)
+
+- Regra para atualizar a versao atraves de servico (23/08/2016)
+
+================================================================================================
+Versão 1.0.1.1 (18/08/2016)
+
+- Criacao do projeto (18/08/2016)
+- Criado a classe MainActivity e a IdentificacaoActivity (19/08/2016)
+- criado a regra para captura de biometrias (19/08/2016)
+- criado a regra para captura de fotos (19/08/2016)
+- criados parametros para que outras aplicacoes utilizem o app (19/08/2016)
+- criada acao no manifest para que outras aplicacoes utilizem a idenficacao (22/08/2016)
+- criado servico para atualizacao do aplicativo em segundo plano (23/08/2016)

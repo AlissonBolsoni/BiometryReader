@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">BioReader</string>
+    <string name="title_identification">IDENTIFICAÇÃO</string>
+    <string name="alert">ALERTA</string>
+    <string name="take_picture">CAPTURAR FOTO</string>
+    <string name="take">CAPTURAR</string>
+    <string name="identification">IDENTIFICAR</string>
+    <string name="test_mode">MODO TESTE - %s</string>
+    <string name="name">NOME</string>
+    <string name="awaiting_save">SALVANDO, AGUARDE...</string>
+    <string name="lfd">DETECTAR DEDO VIVO</string>
+    <string name="msg_awaiting_driver">CARREGANDO LEITOR BIOMÉTRICO....</string>
+    <string name="content_description_imv">Imagem da digital</string>
+    <string name="content_description_logo">Logo do sistema</string>
+    <string name="msg_finger_not_detected">BIOMETRIA NÃO DETECTADA, TENTE NOVAMENTE</string>
+    <string name="msg_finger_not_generated">BIOMETRIA INVÁLIDA, TENTE NOVAMENTE.</string>
+    <string name="msg_finger_position">POSICIONE O DEDO</string>
+    <string name="focus_face_">COLOQUE O ROSTO DENTRO DA IMAGEM PARA TIRAR A FOTO</string>
+    <string name="msg_permission_deny">PERMISSÃO NEGADA. ACEITE PARA CONTINUAR</string>
+    <string name="zero_percentage">0%</string>
+    <string name="faces_detects">FACES DETECTADAS: %d</string>
+
+</resources>
